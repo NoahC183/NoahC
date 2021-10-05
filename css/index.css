@@ -1,6 +1,6 @@
 /**
 * Template Name: Resume for GIS portfolio
-* Template URL:
+* Template URL: Noah Clancey
 * Author: https://github.com/Abhisaran
 * License:
 */
@@ -173,7 +173,7 @@ body::-webkit-scrollbar {
 }
 
 #home-right-bg {
-    background-image: url('../images/guy-fawkes-bg-cropped.jpg');
+    background-image: url('../images/guy-fawkes-bg-cropped.JPG');
     height: 50vh;
     width: 50vh;
     border-radius: 50%;

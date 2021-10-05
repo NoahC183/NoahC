@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"-->
+    <!--          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"-->
+    <!--          crossorigin="anonymous">-->
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<!-- =======================================================
+* Template Name: Resume for GIS portfolio
+* Template URL:
+* Author: https://github.com/Abhisaran
+* License:
+======================================================== -->
+
+<body id="body">
+<!--<body>-->
+<!-- Navigation Bar -->
+<header>
+    <nav id="navbar" class="navbar" role="navigation" data-mobile="false">
+        <button id="navbar-toggle" class="navbar-toggle" type="button"
+                aria-controls="navbar-menu"
+                aria-label="Toggle menu"
+                aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul id="nav-link-container" class="nav-link-container">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<a href="#portfolio" id="nav-scroll-button">
+    <span> >>> </span>
+</a>
+
+<section id="home">
+    <div id="home-left">
+
+        <div id="hacker-name" class="name-big-font">Noah Clancey
+            <div class="resume-title"> 
+                Geospatial Science @ RMIT University
+            </div>
+    </div>
+    </div>
+    <div id="home-right">
+        <div id="home-right-bg"></div>
+    </div>
+</section>
+
+<main id="main">
+    <section id="portfolio">
+        <div class="name-big-font">-- Portfolio --</div>
+        <div class="portfolio-filter-container">
+            <ul id="portfolio-filters">
+                <li>
+                    <button data-filter-id="all" class="filter-button filter-button-active">All</button>
+                </li>
+                <li>
+                    <button data-filter-id="2D Mapping" class="filter-button">2D Mapping</button>
+                </li>
+                <li>
+                    <button data-filter-id="Spatial Analysis" class="filter-button">Spatial Analysis</button>
+                </li>
+                <li>
+                    <button data-filter-id="Print Media" class="filter-button">Print Media</button>
+                </li>
+                <li>
+                    <button data-filter-id="3D Mapping" class="filter-button">3D Mapping</button>
+                </li>
+            </ul>
+        </div>
+        <div class="portfolio-grid-container">
+            <div class="portfolio-grid-item" data-project-type="Spatial Analysis">
+                <a href="http://www.google.com">
+                <iframe class="portfolio-image" src="https://noahc183.carto.com/builder/8063a211-31df-4207-80a4-a401a376b64b/embed"></iframe>
+                </a>
+                <div>
+                    <p>
+                        Melbourne's Useful Public Transport Connections
+                    </p>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="3D Mapping">
+                <!--                <a href="https://noahc183.carto.com/builder/8063a211-31df-4207-80a4-a401a376b64b/embed">-->
+                <a href="images/project-images/1.png">
+                    <img class="portfolio-image" src="images/project-images/1.png" alt="Project Image">
+                </a>
+                <div>
+                <p>
+                    Yarra Bend Park Amphitheatre Proposal
+                </p>
+                </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="Print Media">
+                <a href="images/project-images/2.png">
+                    <img class="portfolio-image" src="images/project-images/2.png" alt="Project Image">
+                </a>
+                <div>
+                    <p>
+                        Jindabyne Calendar Map
+                    </p>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="Spatial Analysis">
+                <a href="images/project-images/3.png">
+                    <img class="portfolio-image" src="images/project-images/3.png" alt="Project Image">
+                </a>
+                <div>
+                    <p>
+                        City of Kingston City Walkability Map
+                    </p>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="Spatial Analysis">
+                <a href="images/project-images/4.png">
+                    <img class="portfolio-image" src="images/project-images/4.png" alt="Project Image">
+                </a>
+                <div>
+                    <p>
+                        Railway Station Entrance Accessibility
+                    </p>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="2D Mapping">
+                <a href="images/project-images/5.png">
+                    <img class="portfolio-image" src="images/project-images/5.png" alt="Project Image">
+                </a>
+                <div>
+                    <p>
+                        Melbourne CBD Public Transport Map
+                    </p>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item" data-project-type="Print Media">
+                <a href="images/project-images/7.png">
+                    <img class="portfolio-image" src="images/project-images/7.png" alt="Project Image">
+                </a>
+                <div>
+                    <p>
+                        Melbourne Sports & Entertainment Precinct Brochure
+                    </p>
+                    </div>
+             </div>
+                <div class="portfolio-grid-item" data-project-type="2D Mapping">
+                    <a href="images/project-images/8.png">
+                        <img class="portfolio-image" src="images/project-images/8.png" alt="Project Image">
+                    </a>
+                    <div>
+                        <p>
+                            Farm Mapping
+                        </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-grid-item" data-project-type="2D Mapping">
+                        <a href="images/project-images/9.png">
+                            <img class="portfolio-image" src="images/project-images/9.png" alt="Project Image">
+                        </a>
+                        <div>
+                            <p>
+                                Victorian Historical Railway Map
+                            </p>
+                            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="name-big-font">-- Resume --</div>
+        <div id="resume-container">
+            <div class="resume-article">
+                <div class="resume-article-left">
+                    <img class="resume-image" src="images/resume-images/1.png" alt="Company logo in resume">
+                </div>
+                <div class="resume-article-right">
+                    <div class="resume-title">RMIT University</div>
+                    <div class="resume-designation">Bachelor of Science - BS Geospatial Science (Hons)</div>
+                    <div class="resume-location">Melbourne</div>
+                    <br>
+                    <div class="resume-description">Studying Geospatial Science, I have learnt the theory & hands-on skills of Land Surveying 
+                        and the technical skills involved in Geographic Information Systems. I am passionate about Cartography and utilising 
+                        spatial data to create accessible & visually attractive maps. I enjoy combining the Geospatial skillset I have gained at 
+                        RMIT with my passion for transport and have recently focused my skills on using GIS to provide positive public transport outcomes.
+                        <br>
+                        <br>
+                        <span class="resume-description-key">
+                            Key Skills
+                        </span>
+                        <ul>
+                            <li>Cartography & Mapping projects.
+                            </li>
+                            <li>Spatial Data capture & analysis for asset management.
+                            </li>
+                            <li>Land Surveying & Cadastral Boundary work.
+                            </li>
+                            <li>Aerial Imagery analysis.
+                            </li>
+                            <li>Remote Imaging - Creating 3D digital models from photos.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-article">
+                <div class="resume-article-left">
+                    <img class="resume-image" src="images/resume-images/2.png" alt="Company logo in resume">
+                </div>
+                <div class="resume-article-right">
+                    <div class="resume-title">Steamrail Victoria</div>
+                    <div class="resume-designation">Operations Team Member</div>
+                    <div class="resume-location">Feb 2020 – Present</div>
+                    <br>
+                    <div class="resume-description">Working as part of the Operations Department team, 
+                        largely organising tour schedules & ticket sales for steam hauled day trips & shuttles. 
+                        This includes liaising with other tourism operators & venues such as wineries to organise day tour 
+                        packages for our passengers. Work also involves social media & marketing management for Steamrail Victoria, 
+                        and various administrative tasks delegated to the Operations Department by the Steamrail Board of Management & Operations Manager.
+                        <br>
+                        <br>
+                        <span class="resume-description-key">
+                        </span>
+                        <div class="resume-designation">Workshop Trades Assistant</div>
+                        <div class="resume-location">Feb 2019 – Present</div>
+                        <br>
+                        <div class="resume-description">Undertaking maintenance & restoration of vintage railway rollingstock.
+                            Beginning work in the Carriage Shop, learning the day-to-day maintenance requirements of historic 
+                            wooden bodied carriages, I later moved into the Steam Locomotive workshop, working alongside qualified 
+                            Fitter & Turners with daily maintenance, heavy overhaul & cosmetic restoration of Steam Locomotives ranging 
+                            between 70 - 130 years old. I am now in a position of advising & managing certain aspects of carriage maintenance 
+                            & restoration projects, largely guiding volunteers with the process of carriage repaints & managing scheduled running maintenance tasks.
+                            <br>
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="name-big-font">-- Contact --</div>
+<div></div>
+<br>
+<br>
+<section></section>
+<a class="resume-designation" href="https://www.linkedin.com/in/noahclancey/">Visit My LinkedIn</a>
+<p><br>
+    <br><br>
+    <br>
+    <a class="resume-designation" >Send me an Email:</a>
+</p>
+<br>
+
+        <div id="email-container">
+            <div id="contact-email-container">
+                <div>
+                    <input id="email-input-from" type="email"
+                           placeholder="To email address" value="s3717687@student.rmit.edu.au" required disabled/>
+                    <input id="email-input-name" type="text"
+                           placeholder="Please enter your name" required/>
+                </div>
+                <input id="email-input-subject" type="text"
+                       placeholder="Subject?" required/>
+                <input id="email-input-body" type="text"
+                       placeholder="Your response" required/>
+                <button id="email-input-button">Send</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="footer-container">
+        <div class="credits">
+            Content Noah Clancey (S3717687). Designed by <a href="https://github.com/Abhisaran">Abhi</a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>MIT License</span></strong> All Rights Reserved
+        </div>
+    </div>
+</footer>
+
+<!-- Main javascript file -->
+<script src="js/index.js"></script>
+</body>
+</html>
